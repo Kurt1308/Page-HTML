@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>lucasdiasdeingles</title>
+</head>
+<body>
+<h1><center><font size=45><font color="green"><b><i>Dias de Inglês</i></b></font></font></center></h1>
+<center><img src="Lucas.jpg" width="360 height="200"></center>
+<div>
+<div style="background-color:gray";>
+<h2><i><font size=30><font color="lime"><center>Let's finally learn english?</center></font></font></i></h2>
+</div>
+<p><center><font color="black">Você já tentou aprender inglês de quantas formas
+diferentes? Talvez eu tenha um método, ou melhor, uma sequência<br> de estudos que pode facilitar o processo
+de aprendizagem. Então vamos lá, me dê alguns minutos da sua atenção e te mostrarei uma forma interessante e descomplicada.
+</font></p>
+<p>Clique no botão e descubra mais.</p>
+<font size=5><i><font color="red">
+<p id="demo1001"></p>
+<script>
+var frase = "Inglês é muito mais fácil do que parece!!! :-)";
+function myFunction1001() {
+document.getElementById("demo1001").innerHTML =frase;
+}
+</script>
+<button onclick="myFunction1001()">Secrect</button>
+</font><i></font></center>
+<br>
+<p><center><font size=5><i>Podemos começar? Se sim, vamos lá!</font><i></p><br>
+<p><i>Você já se perguntou quantas palavras a língua inglesa tem? Quantas palavras você precisa aprender para se comunicar em inglês?<br>
+Neste página falaremos sobre isso. A verdade é que não há resposta que possa ser muito exata, pois as línguas têm um caráter fluido<br>
+e estão sempre mudando. Contudo, o famoso Oxford English Dictionary tem 171,476 palavras de entrada, 47,156 palavras obsoletas do  e<br>
+9,500 palavras derivadas incluídas como subentradas. Na segunda edição desse dicionário, estima-se que haja cerca de 600,000 palavras<br>
+  definidas, mas inclui palavras que não são mais comumente usadas. O dicionário é expandido a cada ano para adicionar novas<br>
+palavras que são inventadas para descrever situações (ou o mundo em geral) ou novos significados para as palavras existentes.<br></i></p>
+<font size=1>Fonte: <font color="red">https://www.learnenglish1-2-1.com/pt/n%C3%BAmero-de-palavras-no-idioma-ingl%C3%AAs/</font></font></i></p><br><br>
+<p><i>Pensando em todo o processo de aprendizem, que demanda muito tempo, e na quantidade de palavras que o idioma tem, separei as <br>
+principais palavras do idioma e as coloqueis em seus respectivos grupos. Tendo feito isso, descobri que não precisamos aprender um<br>
+ número muito elevado de palavras para sermos capazes de nos comunicar em situações diversas do cotidiano. Aprendendo apenas alguns<br>
+grupos de palavras, você consegue atingir um nível que lhe permitirá, por exemplo, estudar inglês em inglês. Ou seja, adquirir apostilas<br>
+de instituições americanas e estudar através delas.<br></i></p>
+<div>
+<div style="background-color:lightgray;"><center>
+<h2>Quais são as classes de palavras que devemos aprender?</h2>
+<ul>
+<li>Subjct Pronouns</li>
+<li>Object Pronouns</li>
+<li>Possessive adjectives</li>
+<li>Possessive Pronouns</li>
+<li>Articles</li>
+<li>Most used Prepositions</li>
+<li>Most commons Adverbs</li>
+<li>Word Question or W&H questions</li>
+<li>There is, There are and Demonstatives</li>
+</lu></center>
+</div>
+<br>
+<h3>Quantas palavras dos gurpos acima você conhece?</h3> <br>
+<br><p>Responda as perguntas abaixo e teste seu conhecimento.</p>
+
+<p><b>1- Quais são os <button onclick="window.alert('Sujeito da ação verbal, quem faz algo. Eu ensino inglês. Quem ensina inglês? EU ensino, logo Eu é o sujeito.')">subject pronouns</button>?</p><br><textarea></textarea><br>
+<button onclick="myFunction()">Checar resposta</button>                                                                      
+<script>
+function myFunction() {
+var str = document.getElementById("demo1").innerHTML;
+var txt = str.replace("Eu, Você, ele, ela, isso, isto, este, esse, essa, nós, vós, vocês, eles e elas", "I, YOU, HE, SHE, IT, WE, YOU & THEY");
+document.getElementById("demo1").innerHTML =txt;
+}
+</script>
+<p id="demo1">Eu, Você, ele, ela, isso, isto, este, esse, essa, nós, vós, vocês, eles e elas</p>
+<br>
+
+<p>2- Quais são os <button onclick="window.alert('Pessoa ou objeto que recebe a ação verbal. Estão sempre posicionados depois do verbo. Eu ensino VOCÊ. Você é o object pronoun.')">object pronouns</button>?</p><br><textarea></textarea><br>
+<button onclick="myFunction1()">Checar resposta</button>                                                                      
+<script>
+function myFunction1() {
+var str1 = document.getElementById("demo2").innerHTML;
+var txt1 = str1.replace("Eu, Você, ele, ela, isso, isto, este, esse, essa, nós, vós, vocês, eles e elas", "ME, YOU, HIM, HER, IT, US, YOU & THEM");
+document.getElementById("demo2").innerHTML =txt1;
+}
+</script>
+<p id="demo2">Eu, Você, ele, ela, isso, isto, este, esse, essa, nós, vós, vocês, eles e elas</p>
+<br>
+
+<div><div name="Exercise 2">
+        <h3>Exercise: Subject and object pronouns</h3>
+<p>3- Choose the correct answer.</p>
+       
+<p id="demo41"> 1.This is Sam. I go to school with __.</p>                                                                    
+<script>
+function resposta1() {
+var str11 = document.getElementById("demo41").innerHTML;
+var txt11 = str11.replace('__', '"him"');
+document.getElementById("demo41").innerHTML =txt11;
+}
+</script>
+<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q1">he<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q1">him<br></p>
+<button onclick="resposta1()">Resposta</button>  
+
+<p id="demo42"> 2.__are going to the city.</p>                                                                      
+<script>
+function resposta2() {
+var str12 = document.getElementById("demo42").innerHTML;
+var txt12 = str12.replace('__', '"We"');
+document.getElementById("demo42").innerHTML =txt12;
+}
+</script>
+<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q2">Us<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q2">We<br></p>
+<button onclick="resposta2()">Resposta</button>
+
+<p id="demo43"> 3.Why are you looking at __?</p>                                                                      
+<script>
+function resposta3() {
+var str13 = document.getElementById("demo43").innerHTML;
+var txt13 = str13.replace('__', '"me"');
+document.getElementById("demo43").innerHTML =txt13;
+}
+</script>
+<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q3">me<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q3">I<br></p>
+<button onclick="resposta3()">Resposta</button>
+
+<p id="demo44"> 4.__ goes to the bed at 9 o'clock.</p>
+<script>
+function resposta4() {
+var str14 = document.getElementById("demo44").innerHTML;
+var txt14 = str14.replace('__', '"She"');
+document.getElementById("demo44").innerHTML =txt14;
+}
+</script>
+<br>
+<button onclick="resposta4()">Resposta</button><br>
+<input class="multiplechoice_radiobutton" type="radio" name="q4">Her<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q4">She<br></p>
+
+<p id="demo45"> 5.This is Tom's trumpet. __ plays it every day.</p>
+<script>
+function resposta5() {
+var str15 = document.getElementById("demo45").innerHTML;
+var txt15 = str15.replace('__', '"He"');
+document.getElementById("demo45").innerHTML =txt15;
+}
+</script>
+<br>
+<button onclick="resposta5()">Resposta</button><br>
+<input class="multiplechoice_radiobutton" type="radio" name="q5">He<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q5">Him<br></p>
+
+<p id="demo46"> 6.These are my hamsters. Do you like __?</p>
+<script>
+function resposta6() {
+var str16 = document.getElementById("demo46").innerHTML;
+var txt16 = str16.replace('__', '"them"');
+document.getElementById("demo46").innerHTML =txt16;
+}
+</script>
+<br>
+<button onclick="resposta6()">Resposta</button><br>
+<input class="multiplechoice_radiobutton" type="radio" name="q6">they<br>
+<input class="multiplechoice_radiobutton" type="radio" name="q6">them<br></p>
+
+
+</div name="Exercise 2"></div>
+
+<p> 4- Quais são os <button onclick="window.alert('Palavras que mostram posse.')">Pos. Adjectives</button>?</p><br><textarea></textarea><br>
+<button onclick="possessiveAdjectives()">Checar resposta</button>                                                                      
+<script>
+function possessiveAdjectives() {
+var str51 = document.getElementById("demo3").innerHTML;
+var txt51 = str51.replace("Meu, seu, sua, dele, dela, disso, deles, delas, nosso, seus, suas", "MY, YOUR, HIM, HET, ITS, YOUR, OUR & THEIR");
+document.getElementById("demo3").innerHTML =txt51;
+}
+</script>
+<p id="demo3">Meu, seu, sua, dele, dela, disso, deles, delas, nosso, seus, suas</p>
+<br>
+
+<p>5- Escolha os possessive adjectives corretos para cada frase:
+<div>
+1. This is <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>your</option>
+<option>my</option>
+<option>her</option>
+</center></select> house. (subject "I")</p>
+2. Where is <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>your</option>
+<option>my</option>
+<option>her</option>
+</center></select> sister? (subject "YOU")</p>
+3.  <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>your</option>
+<option>my</option>
+<option>Her</option>
+</center></select> house is beautiful. (subject "SHE)</p>
+4. What is it? <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>Its</option>
+<option>their</option>
+<option>his</option>
+</center></select> color is nice.</p>
+5. They look happy. <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>its</option>
+<option>Their</option>
+<option>his</option>
+</center></select> faces are smiling.</p>
+6. Willian is from Brazil, <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>its</option>
+<option>Their</option>
+<option>his</option>
+</center></select> wife is Karine.</p>
+7. We are studying english, <select name="Possessive adjectives"><center>
+<option>???</option>
+<option>your</option>
+<option>our</option>
+<option>her</option>
+</center></select> teacher is Lucas.</p>
+<button onclick="window.alert('MY, YOUR, HER, ITS, THEIR, HIS and OUR')">Confira aqui as respostas corretas</button><br></div>
+<br>
+        <div>
+<div style="background-color:lightgray;">
+<p>6- Coloque os possessive pronouns corretos para cada frase:
+<p>1. This shirt is <select><option></option>
+<option>YOURS</option>
+<option>MINE</option>
+<option>OURS</option></select>. (subject "I")</p>
+<p>2. The book is <select><option></option>
+<option>YOURS</option>
+<option>MINE</option>
+<option>OURS</option></select>. (subject "WE")</p>
+<p>3. The bird is <select><option></option>
+<option>YOURS</option>
+<option>MINE</option>
+<option>OURS</option></select>. (subject "YOU")</p>
+<p>4. The ball is <select><option></option>
+<option>YOURS</option>
+<option>HIS</option>
+<option>OURS</option></select>. (subject "HE")</p>
+<p>5. The car is <select><option></option>
+<option>YOURS</option>
+<option>MINE</option>
+<option>THEIS</option></select>. (subject "THEY")</p>
+<p>6. The dog is <select><option></option>
+<option>YOURS</option>
+<option>HERS</option>
+<option>OURS</option></select>. (subject "SHE")
+<br>
+<br>
+<button onclick="window.alert('Respostas: MINE, OURS, YOURS, HIS, THEIRS and HERS')">Checar respostas</button><br>
+</div>
+
+<p>7- Quando os artigos são usados?</p>
+A- <input class="multiplechoice_radiobutton" type="radio" name="q1">Os artigos são usados para antepor os substantivos, determinando-os ou indeterminando-os.<br>
+B- <input class="multiplechoice_radiobutton" type="radio" name="q1">Utilizamos os artigos para dar junção a termos independentes da frase.<br>
+C- <input class="multiplechoice_radiobutton" type="radio" name="q1">Os artigos são as palavras que colocamos entre dois verbos no simple present.<br>
+D- <input class="multiplechoice_radiobutton" type="radio" name="q1">São as palavras que negamos com o "not" ao invés de usar o "do not".<br>
+<br>
+
+<p id="demo88"></p>
+<script>
+var frase88 = 'Letra "A" - Os artigos são usados para antepor os substantivos, determinando-os ou indeterminando-os.';
+function myFunctionArt() {
+document.getElementById("demo88").innerHTML =frase88;
+}
+</script>
+<button type="button" onclick="myFunctionArt()">Resposta</button>
+
+<br></div>
+
+<p>8- Quais são os <button onclick="window.alert('Artigos são as palavras que se antepõem aos substantivos. Eles podem ser difinidos ou indefinidos. Em inglês temos 3 artigos apenas.')">articles</button> em inglês?</p><br><textarea></textarea><br>
+<button onclick="articles()">Checar resposta</button><br>
+<script>
+var artc = "A, AN and THE";
+function articles() {
+  document.getElementById("demo5").innerHTML =artc;
+}
+</script>
+<p id="demo5"></p>
+<br>
+<div>
+
+<p>9- Quais são as <button onclick="window.alert('Palavras que são usadas para fazer perguntas que demandam explicações, aquelas que fazem com que a pergunta não possa ser respondida com um simples sim ou não.')">W&H questions</button>?</p><br><textarea></textarea><br>
+<button onclick="myFunction6()">Checar resposta</button><br>
+<script>                                                                      
+function myFunction6() {
+var str6 = document.getElementById("demo6").innerHTML;
+var txt6 = str6.replace("O que/Qual, Onde, Quem, Quando, Por que? e Como", "WHAT, WHERE, WHO, WHEN, WHY and HOW");
+document.getElementById("demo6").innerHTML =txt6;
+}
+</script>
+<p id="demo6">"O que/Qual, Onde, Quem, Quando, Por que? e Como"</p>
+</div><br>
+
+<div>
+
+<p>10- Quais são os <button onclick="window.alert('Palavras que são usadas para situar a posição dos seres no tempo ou no espaço, utilizadas para mostrar algo.')">Demonstratives</button>?</p><br><textarea></textarea><br>        
+<button onclick="myFunction7()">checar resposta</button><br>
+<script>                                                                      
+function myFunction7() {
+var str7 = document.getElementById("demo7").innerHTML;
+var txt7 = str7.replace("Este/Esse, Esta/Essa", "THIS, THAT, THESE and THOSE");
+document.getElementById("demo7").innerHTML =txt7;
+}
+</script>
+<p id="demo7">"Este/Esse, Esta/Essa"</p>
+</div><br>
+<br>
+<h3>Qual o importância de aprender esses grupos?</h3>
+<p>Essas palavras compõem o esqueleto do idioma, se você estudar qualquer frase, você vai encontrar alguns<br>
+ verbos e substantivos rodeados dessas palavras.<br>
+<div>
+<div style="background-color:lightgray;">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Subject Pronouns</th>
+<th>Objects Pronouns</th>
+<th>Articles</th>
+<th>W&H questions</th>
+<th>Demonstratives</th>
+<th>Possessive adj.</th>
+<th>Possessive Pron.</th>
+</tr></font>
+</thead>
+<tr>
+<th></th>
+<th>I</th>
+<th>ME</th>
+<th>A</th>
+<th>WHAT</th>
+<th>THIS</th>
+<th>MY</th>
+<th>MINE</th>
+</tr>
+<tr>
+<th></th>
+<th>YOU</th>
+<th>YOU</th>
+<th>AN</th>
+<th>WHERE</th>
+<th>THAT</th>
+<th>YOUR</th>
+<th>YOURS</th>
+</tr>
+<tr>
+<th></th>
+<th>HE</th>
+<th>HIM</th>
+<th>THE</th>
+<th>WHO</th>
+<th>THESE</th>
+<th>HIS</th>
+<th>HIS</th>
+</tr>
+<tr>
+<th></th>
+<th>SHE</th>
+<th>HER</th>
+<th></th>
+<th>WHY</th>
+<th>THOSE</th>
+<th>HER</th>
+<th>HERS</th>
+</tr>
+<tr>
+<th></th>
+<th>IT</th>
+<th>IT</th>
+<th></th>
+<th>WHEN</th>
+<th></th>
+<th>ITS</th>
+<th></th>
+</tr>
+<tr>
+<th></th>
+<th>WE</th>
+<th>US</th>
+<th></th>
+<th>HOW</th>
+<th></th>
+<th>OUR</th>
+<th>OURS</th>
+</tr>
+<tr>
+<th></th>
+<th>YOU</th>
+<th>YOU</th>
+<th></th>
+<th></th>
+<th></th>
+<th>YOUR</th>
+<th>YOURS</th>
+</tr>
+<tr>
+<th></th>
+<th>THEY</th>
+<th>THEM</th>
+<th></th>
+<th></th>
+<th></th>
+<th>THEIR</th>
+<th>THEIRS</th>
+</tr>
+<tr>
+<th>TOTAL</th>
+<th>8</th>
+<th>8</th>
+<th>3</th>
+<th>6</th>
+<th>4</th>
+<th>8</th>
+<th>7</th>
+<th>44</th>
+</tr>
+</table>
+</div>
+<br>
+
+<p>Além das palavras do quadro acima, temos que adicionar as preposições mais usadas. Não precisamos, a princípio,<br>
+  de mais do que 25, isso nos leva a um total de 69 palavras iniciais.<br></p><br>
+<p>Você deve estar se perguntando, "E os advérbios mais comuns? Não precisamos aprende-los?" A princípio, apenas 6!<br>
+ No decorrer dos estudos você vai entender o porquê; apenas tenha em mente que precisamos das 69 previamente mencionadas</p>
+e outros 6 advérbios.<br>
+
+<p>Estes advérbios, na verdade, são os que vamos precisar para essa música + 1, o "Always".<br>
+São eles:
+<button onclick="window.alert('Nunca, advérbio de negação do verbo;')">Never</button>,
+<button onclick="window.alert('Sempre, o oposto do never')">Always</button>,
+<button onclick="window.alert('funciona como o nosso não associado a outro verbo;')">Not</button>,
+<button onclick="window.alert('É utilizada em contextos diversos, no caso da música, junto com outras palavras atribui um novo sentido;')">Up</button>,
+ <button onclick="window.alert('Ainda, uma idéia de continuidade;')">Still</button>,
+<button onclick="window.alert('Tem múltiplos sentidos, Exatamente, quase, agora mesmo e também pode ser usado como adjetivo;')">Just</button>.
+</p><br>
+
+<h2>Vamos ver isso na prática</h2><br>
+
+<p>Abaixo, dividi as palavras de uma música em corres de acordo com seus respectivos grupos, observe que 65% da música está<br>
+dentro desses grupos. Vale a pena resaltar que os subject and object pronouns, se não tiverem sido sitados pelo interlocutor,<br>
+ eles serão substantivos (palavras que nomeiam). Os advérbios são as únicas palavras que não sofrerão alteração.<br>
+ A disposição das cores será:<br>
+<br>
+<font color="blue">Subject Pronouns</font><br>
+<font color="red">Object Prounouns Pronouns</font><br>
+<font color="green">Articles</font><br>
+<font color="lime">W&H questions</font><br>
+<font color="purple">Prepositions</font><br>
+<font color="yellow">Possessive Adjectives</font><br>
+<font color="gray">Possessive Pronouns</font><br>
+<font color="pink">Demonstrative</font><br>
+Entre "" estão os verbos<br>
+<button onclick="window.alert('Clique no botão para saber o significado. Palavras que aprendemos na parte de absorção de vocabulário.')">Botões (clique para ver o significado)</button> as palavras que dão nome
+<br>
+<p>Peço que você não se preocupe com a música no geral, tenha uma visão de frase por frase. Você perceberá que, aprendendo esses<br>
+grupos da forma correta, fazendo o mínimo de tradução mental e sim associando essas palavras aos contextos em que são usadas, você<br>
+poderá compreender cerca de 70% de toda frase que você ler e/ou escutar do idioma inglês; na verdade, não precisamos, muitas vezes, <br>
+entender mais do que isso para associarmos a frase a um contexto e termos perfeita compreenção da mensagem recebida.</p>
+<div>
+<p><font size="6"><center>Perfect</center></font></p><font size=1>Canção de:<font color="red">Ed Sheeran</font></font><br><font color="red"></font>
+
+
+<font color="blue">I</font> "found" <font color="green">a</font> <button onclick="window.alert('Amor - uma pessoa que se ama')">love</button> <font color="purple">for</font> <font color="red">me</font> <br>
+<button onclick="window.alert('Oh querida - jeito carinhoso de chamar a amada;')">Oh darling</button>, just "dive" right "in" <font color="purple">and</font> "follow" <font color="yellow">my</font> <button onclick="window.alert('liderança - ato de guiar outras pessoas;')">lead</button><br>
+Well, <font color="blue">I</font> "found" <font color="green">a</font> <button onclick="window.alert('Garota')">girl</button>, <button onclick="window.alert('Bonita - adjectivo: palavra que atribui qualidades e/ou defeitos;')">beautiful</button> <font color="purple">and</font> <button onclick="window.alert('Doce/Meiga - adjectivo: palavra que atribui qualidades e/ou defeitos;')">sweet</button><br>
+Oh, <font color="blue">I</font> never "knew" <font color="blue">you</font> "were" <font color="green">the</font> <button onclick="window.alert('Alguém')">someone</button> "waiting" <font color="purple">for</font> <font color="red">me</font><br>
+'Cause <font color="blue">we</font> "were" just <button onclick="window.alert('Crianças')">kids</button> <font color="lime">when</font> <font color="blue">we</font> "fell in" <button onclick="window.alert('Amor - se apaixonar;')">love</button><br>
+"Not knowing" <font color="lime">what</font> <font color="blue">it</font> "was"<br>
+<font color="blue">I</font> "will not give" <font color="red">you</font> "up" <font color="pink">this</font> <button onclick="window.alert('Tempo - referência ao momento que estão vivendo;')">time</button><br>
+<font color="purple">But</font> <button onclick="window.alert('Querida - forma carinhosa de chamar a pessoa amada')">darling</button>, just "kiss" <font color="red">me</font> slow, <font color="yellow">your</font> <button onclick="window.alert('Coração;')">heart</button> "is" <button onclick="window.alert('Tudo/Todo')">all</button> <font color="blue">I</font> "own"<br>
+<font color="purple">And in</font> <font color="yellow">your</font> <button onclick="window.alert('Olhos - parte do corpo humano;')">eyes</button>, <font color="blue">you</font> "are holding" <font color="gray">mine</font><br>
+<button onclick="window.alert('Bebê - forma carinhosa de chamar a pessoa amada;')">Baby</button>, <font color="blue">I</font> "am dancing" <font color="purple">in</font> <font color="green">the</font> <button onclick="window.alert('Escuridão;')">dark</button> <font color="purple">with</font> <font color="red">you</font> <font color="purple">between</font> <font color="yellow">my</font> <button onclick="window.alert('Braços - parte do corpo;')">arms</button><br>
+<button onclick="window.alert('Pés descalços;')">Barefoot</button> <font color="purple">on</font> <font color="green">the</font> <button onclick="window.alert('Grama/Gramado - area verde;')">grass</button>, "listening" <font color="purple">to</font> <font color="yellow">our</font> favourite <button onclick="window.alert('Canção;')">song</button><br>
+<font color="lime">When</font> <font color="blue">you</font> "said" <font color="blue">you</font> "looked" <font color="green">a</font> <button onclick="window.alert('Bagunça/Confusão;')">mess</button>, <font color="blue">I</font> "whispered" underneath <font color="yellow">my</font> <button onclick="window.alert('Respiração - forma que chamamos o ato de respirar;')">breath</button><br>
+<font color="purple">But</font> <font color="blue">you</font> "heard" <font color="red">it</font>, <button onclick="window.alert('Querida - jeito carinhoso de chamar a pessoa amada;')">darling</button>, <font color="blue">you</font> "look" perfect <button onclick="window.alert('Hoje à noite;')">tonight</button><br>
+Well <font color="blue">I</font> "found" <font color="green">a</font> <button onclick="window.alert('Mulher;')">woman</button>, stronger <font color="purple">than</font> <button onclick="window.alert('Qualquer um;')">anyone</button> <font color="blue">I</font> "know"<br>
+<font color="blue">she</font> "shares" <font color="yellow">my</font> <button onclick="window.alert('Sonhos;')">dreams</button>, <font color="blue">I</font> "hope" <font color="purple">that</font> someday <font color="blue">I</font> "will share" <font color="yellow">her</font> <button onclick="window.alert('Casa/Lar;')">home</button><br>
+<font color="blue">I</font> "found" <font color="green">a</font> <button onclick="window.alert('Amor - pessoas que se ama;')">love</button>, "to carry" <font color="purple">more than</font> just <font color="yellow">my</font> <button onclick="window.alert('Segredos;')">secrets</button><br>
+"To carry" <button onclick="window.alert('Amor - sentimento;')">love</button>, "to carry" <button onclick="window.alert('Filhos;')">children</button> <font color="purple">of</font> <font color="yellow">our</font> own<br>
+<font color="blue">We</font> "are" still <button onclick="window.alert('Crianças;')">kids</button>, <font color="purple">but</font> <font color="blue">we</font> "are" so <font color="purple">in</font> <button onclick="window.alert('Amor/Paixão;')">love</button><br>
+"Fighting" <font color="purple">against</font> all <button onclick="window.alert('Probabilidades;')">odds</button><br>
+<font color="blue">I</font> "know" <font color="blue">we</font> "will be" alright <font color="pink">this</font> <button onclick="window.alert('Tempo/Momento;')">time</button><br>
+<button onclick="window.alert('Querida;')">Darling</button>, just "hold" <font color="yellow">my</font> <button onclick="window.alert('Mão - parte do corpo;')">hand</button><br>
+"Be" <font color="yellow">my</font> <button onclick="window.alert('Mulher - namorada ou esposa;')">girl</button>, <font color="blue">I</font> "will be" <font color="yellow">your</font> <button onclick="window.alert('Homem - namorado ou marido/companheiro;')">man</button><br>
+<font color="blue">I</font> "see" <font color="yellow">my</font> <button onclick="window.alert('Futuro;')">future</button> <font color="purple">in</font> <font color="yellow">your</font> <button onclick="window.alert('Olhos - parte do corpo humano;')">eyes</button><br>
+<button onclick="window.alert('Bebê - jeito carinhoso de chamar a pessoa amada;')">Baby</button>, <font color="blue">I</font> "am dancing" <font color="purple">in</font> <font color="green">the</font> <button onclick="window.alert('Escuridão;')">dark</button>, <font color="purple">with</font> <font color="red">you</font> <font color="purple">between</font> <font color="yellow">my</font> <button onclick="window.alert('Braço - parte do corpo humano;')">arms</button><br>
+
+<button onclick="window.alert('Pés descalços;')">Barefoot</button> <font color="purple">on</font> <font color="green">the</font> <button onclick="window.alert('Grama / Gramado;')">grass</button>, "listening" <font color="purple">to</font> <font color="yellow">our</font> favorite <button onclick="window.alert('Canção / Música;')">song</button><br>
+<font color="lime">When</font> <font color="blue">I</font> "saw" <font color="red">you</font> <font color="purple">in</font> that <button onclick="window.alert('Vestido - roupa feminina;')">dress</button>, "looking" so <button onclick="window.alert('Bonita;')">beautiful</button><br>
+<font color="blue">I</font> "don't deserve" <font color="pink">this</font>, <button onclick="window.alert('Querida;')">darling</button>, <font color="blue">you</font> "look" <button onclick="window.alert('Perfeita esta noite - Adjetivo (atribui qualidade) e Pronome;')">perfect tonight</button><br>
+<button onclick="window.alert('Bebê;')">Baby</button>, <font color="blue">I</font> "am dancing" <font color="purple">in</font> <font color="green">the</font> <button onclick="window.alert('Escuridão;')">dark</button>, <font color="purple">with</font> <font color="red">you</font> <font color="purple">between</font> <font color="yellow">my</font> <button onclick="window.alert('Braços;')">arms</button><br>
+<button onclick="window.alert('Pés descalços;')">Barefoot</button> <font color="purple">on</font> <font color="green">the</font> <button onclick="window.alert('Grama / Gramado;')">grass</button>, "listening" <font color="purple">to</font> <font color="yellow">our</font> favorite <button onclick="window.alert('Canção')">song</button><br>
+<font color="blue">I</font> "have" <button onclick="window.alert('Fe;')">faith</button> <font color="purple">in</font> <font color="lime">what</font> <font color="blue">I</font> "see"<br>
+Now <font color="blue">I</font> "know" <font color="blue">I</font> "have met" <font color="green">an</font> <button onclick="window.alert('Anjo;')">angel</button> <font color="purple">in</font> <button onclick="window.alert('Pessoa;')">person</button><br>
+<font color="purple">And</font> <font color="blue">she</font> "looks" <button onclick="window.alert('Perfeita;')">perfect</button><br>
+<font color="blue">I</font> "don't deserve" <font color="pink">this</font><br>
+<font color="blue">You</font> "look" <button onclick="window.alert('Perfeita esta noite;')">perfect tonight</button><br>
+</div><br>
+<p>Abaixo, separei uma música do Calvin Harris e coloquei um sistema semelhante ao anterior, desta vez, <br>
+você consegue apagar as palavras que correspondem a esses grupos, os advérbios e deixar apenas verbos e <br>
+substantivos. Após aprender os grupos propostos, você pode apaga-los, estudar os verbos e substativos que<br>
+sobram para uma melhor compreensão da música .
+
+
+<p><font size="6">When I met you in the summer</font><br>  
+<font size="1">canção de:<font color="red">Calvin Harris</font></font></p>
+<script>                                                                      
+function myFunction71() {
+var str71 = document.getElementById("demo71").innerHTML;
+var txt71 = str71.replace("When I met you in the summer", "____ _ met ___ __ ___ summer");
+document.getElementById("demo71").innerHTML =txt71;
+}
+function myFunction711() {
+var str711 = document.getElementById("demo71").innerHTML;
+var txt711 = str711.replace("____ _ met ___ __ ___ summer", "When I met you in the summer");
+document.getElementById("demo71").innerHTML =txt711;
+}
+</script>
+<p id="demo71">When I met you in the summer <button onclick="myFunction71()">Limpar</button><button onclick="myFunction711()">Voltar</button></p>
+
+<script>
+function myFunction72() {
+var str72 = document.getElementById("demo72").innerHTML;
+var txt72 = str72.replace("To my heart beat sound", "__ __ heart beat sound");
+document.getElementById("demo72").innerHTML =txt72;
+}
+</script>
+<script>
+function myFunction722() {
+var str722 = document.getElementById("demo72").innerHTML;
+var txt722 = str722.replace("__ __ heart beat sound", "To my heart beat sound");
+document.getElementById("demo72").innerHTML =txt722;
+}
+</script>
+<p id="demo72">To my heart beat sound <button onclick="myFunction72()">Limpar</button><button onclick="myFunction722()">Voltar</button></p>
+
+<script>                                                                      
+function myFunction73() {
+var str73 = document.getElementById("demo73").innerHTML;
+var txt73 = str73.replace("We fell in love", "__ fell __ love");
+document.getElementById("demo73").innerHTML =txt73;
+}
+</script>
+<script>
+function myFunction733() {
+var str733 = document.getElementById("demo73").innerHTML;
+var txt733 = str733.replace("__ fell __ love", "We fell in love");
+document.getElementById("demo73").innerHTML =txt733;
+}
+</script>
+<p id="demo73">We fell in love <button onclick="myFunction73()">Limpar</button><button onclick="myFunction733()">Voltar</button></p>
+
+<script>                                                                      
+function myFunction74() {
+var str74 = document.getElementById("demo74").innerHTML;
+var txt74 = str74.replace("As the leaves turned brown", "__ ___ leaves turned brown");
+document.getElementById("demo74").innerHTML =txt74;
+}
+</script>
+<script>
+function myFunction744() {
+var str744 = document.getElementById("demo74").innerHTML;
+var txt744 = str744.replace("__ ___ leaves turned brown", "As the leaves turned brown");
+document.getElementById("demo74").innerHTML =txt744;
+}
+</script>
+<p id="demo74">As the leaves turned brown <button onclick="myFunction74()">Limpar</button><button onclick="myFunction744()">Voltar</button></p>
+<br>
+
+<script>                                                                      
+function myFunction75() {
+var str75 = document.getElementById("demo75").innerHTML;
+var txt75 = str75.replace("And We could be together, baby", "___ __ could be _______, baby");
+document.getElementById("demo75").innerHTML =txt75;
+}
+function myFunction755() {
+var str755 = document.getElementById("demo75").innerHTML;
+var txt755 = str755.replace("___ __ could be _______, baby", "And We could be together, baby");
+document.getElementById("demo75").innerHTML =txt755;
+}
+</script>
+<p id="demo75">And We could be together, baby <button onclick="myFunction75()">Limpar</button><button onclick="myFunction755()">Voltar</button></p>
+
+<script>
+function myFunction76() {
+var str76 = document.getElementById("demo76").innerHTML;
+var txt76 = str76.replace("As long as skies are blue", "__ ____ __ skies are blue");
+document.getElementById("demo76").innerHTML =txt76;
+}
+</script>
+<script>
+function myFunction766() {
+var str766 = document.getElementById("demo76").innerHTML;
+var txt766 = str766.replace("__ ____ __ skies are blue", "As long as skies are blue");
+document.getElementById("demo76").innerHTML =txt766;
+}
+</script>
+<p id="demo76">As long as skies are blue <button onclick="myFunction76()">Limpar</button><button onclick="myFunction766()">Voltar</button></p>
+
+<script>                                                                      
+function myFunction77() {
+var str77 = document.getElementById("demo77").innerHTML;
+var txt77 = str77.replace("You act so innocent now", "___ act __ innocent ___");
+document.getElementById("demo77").innerHTML =txt77;
+}
+</script>
+<script>
+function myFunction777() {
+var str777 = document.getElementById("demo77").innerHTML;
+var txt777 = str777.replace("___ act __ innocent ___", "You act so innocent now");
+document.getElementById("demo77").innerHTML =txt777;
+}
+</script>
+<p id="demo77">You act so innocent now <button onclick="myFunction77()">Limpar</button><button onclick="myFunction777()">Voltar</button></p>
+
+<script>                                                                      
+function myFunction78() {
+var str78 = document.getElementById("demo78").innerHTML;
+var txt78 = str78.replace("But you lied so soon", "___ ___ lied __ ____");
+document.getElementById("demo78").innerHTML =txt78;
+}
+</script>
+<script>
+function myFunction788() {
+var str788 = document.getElementById("demo78").innerHTML;
+var txt788 = str788.replace("___ ___ lied __ ____", "But you lied so soon");
+document.getElementById("demo78").innerHTML =txt788;
+}
+</script>
+<p id="demo78">But you lied so soon <button onclick="myFunction78()">Limpar</button><button onclick="myFunction788()">Voltar</button></p>
+<br>
+<p> Após checar seus conhecimentos e ver na prática o que podemos fazer aprendendo esses grupos, você consegue perceber o quão<br>
+importante é para o aluno que está iniciando seus estudos em inglês começar por esses grupos?<br>
+Aprenda esses grupos, os advérbios (os de tempo de modo a princípio), os 100 verbos mais utilizados da lingua inglesa, <br>
+escolha o vocabulário da area de interesse e veja seu progresso.<br>
+
+<div>
+<div style="background-color:lightgray";>
+<h2>Calculadora</h2>
+
+<input id="number1" value="" />
+<input id="number2" value="" />
+<p id="demo31">0<p/>
+
+<button onclick="myFunction22()">Subtair</button>
+<button onclick="myFunction21()">Somar</button>
+<button onclick="myFunction23()">Multiplicar</button>
+<button onclick="myFunction24()">Dividir</button>
+
+
+<script>
+function myFunction22() {
+  var age, voteable;
+  number1 = Number(document.getElementById("number1").value);
+  number2 = Number(document.getElementById("number2").value);
+  if (number1 > number2) {
+    voteable = number1 - number2;
+  } else {
+    voteable = (number1 - number2);
+  }
+  document.getElementById("demo31").innerHTML = voteable;
+}
+</script>
+
+<script>
+function myFunction21() {
+  var age1, voteable1;
+  number1 = Number(document.getElementById("number1").value);
+  number2 = Number(document.getElementById("number2").value);
+  if (number1 > number2) {
+    voteable1 = number1 + number2;
+  } else {
+    voteable1 = (number1 + number2);
+  }
+  document.getElementById("demo31").innerHTML = voteable1;
+}
+</script>
+<script>
+function myFunction23() {
+  var age2, voteable2;
+  number1 = Number(document.getElementById("number1").value);
+  number2 = Number(document.getElementById("number2").value);
+    voteable2 = number1 * number2;
+  document.getElementById("demo31").innerHTML = voteable2;
+}
+</script>
+</script>
+<script>
+function myFunction24() {
+  var age3, voteable3;
+  number1 = Number(document.getElementById("number1").value);
+  number2 = Number(document.getElementById("number2").value);
+    voteable3 = number1 / number2;
+  document.getElementById("demo31").innerHTML = voteable3;
+}
+</script>
+</div><br>
+
+</body>
+</html>
